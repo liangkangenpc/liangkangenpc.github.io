@@ -1,4 +1,3 @@
-# liangkangenpc.github.io
 # Hi there 👋
 
 ## About Me
