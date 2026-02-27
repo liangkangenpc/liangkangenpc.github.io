@@ -13,3 +13,38 @@ header {
 section {
     padding: 20px;
 }
+
+/* Contact icons */
+.contact-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #0f172a;
+    transition: 0.3s ease;
+}
+
+.contact-links a svg {
+    width: 20px;
+    height: 20px;
+    fill: #0f172a;
+    transition: 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: #2563eb;
+}
+
+.contact-links a:hover svg {
+    fill: #2563eb;
+    transform: translateY(-2px);
+}
