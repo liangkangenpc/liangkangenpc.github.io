@@ -1,8 +1,7 @@
 # Hi there 👋
 
 ## About Me
-I am a PhD candidate at CIRED laboratory, Ecole des Ponts ParisTech(ENPC).
-Expected date of graduation: 06/2025
+I finished my PhD at CIRED laboratory, Ecole des Ponts ParisTech(ENPC), date of graduation: 21/11/2025
 
 
 ## Skills
@@ -12,4 +11,4 @@ Expected date of graduation: 06/2025
 ## Projects
 -	Liang, K., Leurent, F., & Le Boennec, R. (2024). Is commuting a daily behaviour? Rhythmic evidence in France, as of 2019. Transportation, 1-43.
 -	Leurent, F., & Liang, K. (2022). How Do Individual Walk Lengths and Speeds, Together with Alighting Flow, Determine the Platform Egress Times of Train Users?. Journal of Advanced Transportation, 2022.
--	Liang, K., & Leurent, F. (2025). Commuting Patterns and Emissions in Paris-Île-de-France: A Comparative Study of Interregional and Intraregional Travel. Oral presentation at TRB and Submission at TRR.
+-	Liang, K., & Leurent, F. (2025). Commuting Patterns and Emissions in Paris-Île-de-France: A Comparative Study of Interregional and Intraregional Travel. Transportation Research Record, 2679(12), 188-200.
