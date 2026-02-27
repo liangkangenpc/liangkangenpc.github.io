@@ -1,8 +1,8 @@
 # Hi there 👋
 
 ## About Me
-I finished my PhD at CIRED laboratory, Ecole des Ponts ParisTech(ENPC), date of graduation: 21/11/2025
-Dissertation title: Home-to-work commuting in France: micro behaviors and macro patterns
+- I finished my PhD at CIRED laboratory, Ecole des Ponts ParisTech(ENPC), date of graduation: 21/11/2025
+- Dissertation title: Home-to-work commuting in France: micro behaviors and macro patterns
 
 ## Skills
 - **Languages**: English(IELTS 7, GRE 320+3.5), French(TEF B2), Spanish(B1)
