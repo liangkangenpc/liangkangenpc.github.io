@@ -5,14 +5,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kang Liang | Transportation & Urban Systems</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     background-color: #f7f9fc;
     color: #222;
+    line-height: 1.6;
 }
+
 header {
     background: #0f172a;
     color: white;
@@ -29,7 +33,7 @@ header {
 }
 
 .profile-photo {
-    width: 140px;              /* smaller image */
+    width: 140px;
     height: 140px;
     object-fit: cover;
     border-radius: 50%;
@@ -47,31 +51,80 @@ header {
     font-size: 16px;
     opacity: 0.9;
 }
+
 nav {
     background: white;
     padding: 15px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
 nav a {
     margin: 0 15px;
     text-decoration: none;
     color: #0f172a;
     font-weight: 500;
+    transition: 0.3s;
 }
+
+nav a:hover {
+    color: #2563eb;
+}
+
 section {
     max-width: 900px;
     margin: 60px auto;
     padding: 0 20px;
 }
+
 h2 {
     border-bottom: 2px solid #0f172a;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
+
 .paper {
     margin-bottom: 20px;
 }
+
+.badge {
+    background: #e2e8f0;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+/* CV Button */
+.cv-button {
+    display: inline-block;
+    background-color: #0f172a;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.cv-button:hover {
+    background-color: #2563eb;
+}
+
+/* Contact links */
+.contact-links a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #0f172a;
+    transition: 0.3s;
+}
+
+.contact-links a:hover {
+    color: #2563eb;
+}
+
 footer {
     text-align: center;
     padding: 30px;
@@ -79,12 +132,12 @@ footer {
     color: white;
     margin-top: 60px;
 }
-.badge {
-    background: #e2e8f0;
-    padding: 4px 8px;
-    font-size: 12px;
-    border-radius: 5px;
-    margin-left: 8px;
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 </style>
 </head>
@@ -107,6 +160,7 @@ footer {
     <a href="#education">Education</a>
     <a href="#research">Research</a>
     <a href="#publications">Publications</a>
+    <a href="#cv">CV</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -115,8 +169,6 @@ footer {
 <p>
 I am a transportation and urban systems researcher specializing in home-to-work commuting,
 spatial interaction modeling, transport econometrics, and transport–environment coupling.
-My doctoral research develops an integrated analytical framework linking commuting rhythms,
-urban spatial structure, and environmental impacts in France.
 </p>
 <p>
 My work bridges gravity models, discrete choice models, and entropy maximization,
@@ -164,48 +216,32 @@ Is commuting a daily behaviour? Rhythmic evidence in France, as of 2019.<br>
 <em>Transportation</em> <span class="badge">JCR Q1</span>
 </div>
 
-<div class="paper">
-<strong>Liang, K., & Leurent, F. (2025)</strong><br>
-Commuting Patterns and Emissions in Paris-Île-de-France: A Comparative Study of Interregional and Intraregional Travel.<br>
-<em>Transportation Research Record</em> <span class="badge">JCR Q3</span>
-</div>
+</section>
 
-<div class="paper">
-<strong>Liang, K., & Leurent, F. (2026)</strong><br>
-From where I live, where are the jobs? Home-to-work relations, job basins and opportunity spectra in France as of 2019.<br>
-<em>Transportation Research Interdisciplinary Perspectives</em> (Under Review)
-</div>
-
-<div class="paper">
-<strong>Leurent, F., & Liang, K. (2022)</strong><br>
-Platform egress times of train users under congestion.<br>
-<em>Journal of Advanced Transportation</em> <span class="badge">JCR Q2</span>
-</div>
-
-<div class="paper">
-<strong>Liang, K. (2025)</strong><br>
-<em>Home-to-work commuting in France: micro behaviors and macro patterns</em><br>
-Doctoral Dissertation, IP Paris
-</div>
-
-<!-- NEW CV SECTION -->
 <section id="cv">
 <h2>Curriculum Vitae</h2>
-<p>
-You can download my full academic CV (French version) below:
-</p>
+<p>You can download my full academic CV below:</p>
 
 <a href="CVKangFR.docx" download class="cv-button">
 Download My CV
 </a>
-    
 </section>
 
 <section id="contact">
 <h2>Contact</h2>
-<p>Email: kang.liang@enpc.fr</p>
-<p>LinkedIn: (www.linkedin.com/in/kang-liang-58b843139)</p>
-<p>Google Scholar: (https://scholar.google.com/citations?user=N8yYDe8AAAAJ&hl=en)</p>
+
+<p>Email: <a href="mailto:kang.liang@enpc.fr">kang.liang@enpc.fr</a></p>
+
+<div class="contact-links">
+    <a href="https://www.linkedin.com/in/kang-liang-58b843139" target="_blank">
+        LinkedIn Profile
+    </a>
+
+    <a href="https://scholar.google.com/citations?user=N8yYDe8AAAAJ&hl=en" target="_blank">
+        Google Scholar
+    </a>
+</div>
+
 </section>
 
 <footer>
