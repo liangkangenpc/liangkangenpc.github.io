@@ -16,17 +16,36 @@ body {
 header {
     background: #0f172a;
     color: white;
-    padding: 60px 20px;
-    text-align: center;
+    padding: 50px 20px;
 }
-header h1 {
+
+.header-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.profile-photo {
+    width: 140px;              /* smaller image */
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.header-text h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 32px;
 }
-header p {
-    font-size: 18px;
-    margin-top: 10px;
-    opacity: 0.85;
+
+.header-text p {
+    margin: 6px 0;
+    font-size: 16px;
+    opacity: 0.9;
 }
 nav {
     background: white;
